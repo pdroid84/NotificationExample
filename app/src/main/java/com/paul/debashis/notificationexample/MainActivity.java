@@ -161,7 +161,7 @@ public class MainActivity extends ActionBarActivity {
                 (NotificationManager) getSystemService(this.NOTIFICATION_SERVICE);
         final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setContentTitle("Picture Download")
-                .setContentText("Download in progress")
+                .setContentText("Download is in progress")
                 .setSmallIcon(R.mipmap.ic_launcher);
 // Start a lengthy operation in a background thread
         new Thread(
